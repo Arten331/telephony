@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"telephony/amiclient"
+	"github.com/Arten331/telephony/amiclient"
 )
 
 type ParseActionTC struct {

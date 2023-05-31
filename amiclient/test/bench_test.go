@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"telephony/amiclient"
+	"github.com/Arten331/telephony/amiclient"
 )
 
 // go test -test.bench=BenchmarkMessages -test.count=2 -test.benchtime=100000x -test.benchmem -test.cpu=1,2,4,6,12

@@ -1,4 +1,4 @@
-module telephony
+module github.com/Arten331/telephony
 
 go 1.20
 

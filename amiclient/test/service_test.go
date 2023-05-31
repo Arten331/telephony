@@ -12,7 +12,7 @@ import (
 
 	_ "embed"
 
-	"telephony/amiclient"
+	"github.com/Arten331/telephony/amiclient"
 
 	"github.com/Arten331/observability/logger"
 )

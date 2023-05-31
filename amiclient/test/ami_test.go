@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"telephony/amiclient"
+	"github.com/Arten331/telephony/amiclient"
 
 	"github.com/Arten331/observability/logger"
 )
