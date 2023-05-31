@@ -1,0 +1,30 @@
+Event: FullyBooted
+Privilege: system,all
+Status: Fully Booted
+
+Event: PeerStatus
+Privilege: system,all
+ChannelType: SIP
+Peer: SIP/pbx_sbc2_test
+PeerStatus: Registered
+Address: 192.168.111.68:5060
+
+Event: PeerStatus
+Privilege: system,all
+ChannelType: SIP
+Peer: SIP/sbc_incoming_test
+PeerStatus: Registered
+Address: 192.168.111.4:5060
+
+Response: Success
+AMIversion: 2.10.5
+AsteriskVersion: 13.31.0
+SystemName:
+CoreMaxCalls: 0
+CoreMaxLoadAvg: 0.000000
+CoreRunUser:
+CoreRunGroup:
+CoreMaxFilehandles: 0
+CoreRealTimeEnabled: Yes
+CoreCDRenabled: Yes
+CoreHTTPenabled: No
